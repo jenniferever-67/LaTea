@@ -1,0 +1,45 @@
+   header {
+
+
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    color: rgba(134, 91, 10, 0.795);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(245, 199, 129, 0.822);
+    padding: 15px;
+
+
+    }
+    nav{
+        margin-top:20px;
+    }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+        margin:12px;
+        text-decoration: underline;
+        border: 2px solid rgba(190, 112, 23, 0.815);
+        padding: 6px ;
+        color: rgb(8, 8, 8);
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        transition: color 0,3s;
+        position: relative;
+        font-size: 8p;
+        
+}
+
+ nav a:hover {
+        color: var(--primary);
+    }
